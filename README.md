@@ -1,3 +1,12 @@
+https://youtu.be/986hztrfaSQ
+
+https://github.com/adrianhajdin/project_nextjs13_flexibble
+
+https://gist.github.com/adrianhajdin/a453d745c2361ae4183b421f577a0715
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
