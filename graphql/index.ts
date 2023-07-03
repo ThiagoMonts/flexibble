@@ -7,7 +7,7 @@ export const getUserQuery = `
         avatarUrl
         description
         githubUrl
-        linkedinUrl
+        linkedInUrl
     }
    } 
 `
@@ -18,10 +18,10 @@ export const createUserMutation = `
             user {
                 name
                 email
-                avararUrl
+                avatarUrl
                 description
                 githubUrl
-                linkedinUrl
+                linkedInUrl
                 id
             }
         }

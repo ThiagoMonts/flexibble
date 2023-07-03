@@ -5,7 +5,7 @@ import AuthProviders from './AuthProviders'
 import { getCurrentUser } from '@/lib/session'
 
 const Navbar = async () => {
-   const session = await getCurrentUser
+   const session = await getCurrentUser()
 
    return (
       <nav className='flexBetween navbar'>
