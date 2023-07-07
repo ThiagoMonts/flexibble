@@ -5,6 +5,7 @@ import Image from "next/image"
 import { ChangeEvent } from "react"
 import FormField from "./FormField"
 import { categoryFilters } from "@/constants"
+import CustomMenu from "./CustomMenu"
 
 type Props = {
   type: string
@@ -76,12 +77,6 @@ const ProjectForm = ({ type, session }: Props) => {
         state={form.githubUrl}
         placeholder="https://github.com/ThiagoMonts"
         setState={(value) => handleStateChange('githubUrl', value)}
-      />
-      <FormField 
-        title="Title"
-        state={form.title}
-        placeholder="Flexible"
-        setState={(value) => handleStateChange('title', value)}
       />
 
       <CustomMenu 
